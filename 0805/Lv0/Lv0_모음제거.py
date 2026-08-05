@@ -9,4 +9,4 @@ def solution(my_string):
     return answer
 
 
-print(solution("bus"))
+print(solution("taxi"))
