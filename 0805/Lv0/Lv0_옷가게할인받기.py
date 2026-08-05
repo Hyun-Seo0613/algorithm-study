@@ -14,4 +14,4 @@ def solution(price):
     return int(price)
 
 
-print(solution(800000))
+print(solution(1000000))
