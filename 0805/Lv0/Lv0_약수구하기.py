@@ -10,4 +10,4 @@ def solution(n):
     return list_of_n
 
 
-print(solution(16))
+print(solution(32))
