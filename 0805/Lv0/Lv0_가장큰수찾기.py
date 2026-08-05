@@ -13,4 +13,4 @@ def solution(array):
     return list_of_max_num
 
 
-print(solution([1, 3, 5, 7]))
+print(solution([1, 3, 5, 7, 9]))
