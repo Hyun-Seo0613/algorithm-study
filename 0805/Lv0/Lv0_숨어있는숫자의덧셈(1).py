@@ -8,4 +8,4 @@ def solution(my_string):
     return answer
 
 
-print(solution("aAb1B2cC34oOp"))
+print(solution("aAb1B2cC34oOpt"))
