@@ -2,13 +2,8 @@
 # 입력을 받기위한 input 함수는 절대 사용하지 않습니다.
 def find_common(list_a, list_b):
     # 여기에 코드를 작성하여 함수를 완성합니다.
-    result_set = set()
-    # 우선 세트로 바꿔서 교집합 계산후에 다시 리스트로 바꾼다.
-    set1 = set(list_a)
-    set2 = set(list_b)
-    result_set = set1 & set2
 
-    return list(result_set)
+    pass
 
 
 # 추가 테스트를 위한 코드 작성 가능
