@@ -1,7 +1,6 @@
 # 첫번째 줄은 항상 숫자 1
 # 두번째 줄부터 각 숫자들은 자신의 왼쪽과 오른쪽 위의 숫자 합으로 구성된다.
 
-
 T = int(input())
 
 for tc in range(1, T+1):
@@ -19,6 +18,7 @@ for tc in range(1, T+1):
         for j in range(1, i):
             #           왼쪽 위        +  오른쪽 위
             arr[i][j] = arr[i-1][j-1] + arr[i-1][j]
+               # 3,2  = 2, 1 + 2, 2
 
     print(f"#{tc}")
     for i in range(N):
