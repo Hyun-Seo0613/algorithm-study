@@ -15,5 +15,6 @@ def solution(sizes):
         if height > max_height:
             max_height = height
 
+
     return max_width * max_height
 
