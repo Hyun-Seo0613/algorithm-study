@@ -1,9 +1,11 @@
+# 재귀함수
 def solve(count):
     global answer
 
-    # 현재 숫자 상태
+    # 현재 숫자 상태 > 아래 visited 에서 사용하기 위해서
     state = ''.join(numbers)
 
+    # 이미 봤던 숫자인지 확인하기 (탐색한 숫자를 또 탐색할 필요 없음)
     if state in visited[count]:
         return
 
